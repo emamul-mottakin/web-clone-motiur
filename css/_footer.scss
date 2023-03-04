@@ -1,0 +1,21 @@
+footer {
+
+    padding: 80px 0;
+
+    p {
+        @include pera();
+        span {
+    
+            transition: all .5s;
+    
+            &:hover {
+    
+                color: $pink;
+                cursor: pointer;
+    
+            }
+        
+        }
+    }
+
+}

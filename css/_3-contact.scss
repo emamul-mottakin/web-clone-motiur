@@ -1,0 +1,131 @@
+#contact {
+
+    .cards {
+
+        border-radius: 10px;
+
+        &:hover {
+
+            background: $dark-gradient-2;
+
+        }
+
+        h5 {
+
+            @include title-sm();
+            color: $white-1;
+            text-transform: capitalize;
+
+        }
+
+        .designation, p {
+
+            @include pera();
+            font-size: 18px;
+            line-height: 30px;
+
+        }
+
+        .designation{
+
+            color: $white-2
+
+        }
+        .phone , .email{
+
+            @include pera();
+            display: inline;
+
+            a {
+
+                @include pera();
+                display: inline-block;
+                color: $white-2;
+
+                &:hover {
+
+                    color: $pink;
+                    
+                }
+
+            }
+
+        }
+
+        .social-network {
+
+            p {
+
+                font-size: 14px;
+
+            }
+
+            a {
+
+                display: inline-block;
+                padding: .5rem 1rem;
+                box-shadow: $shadow-1;
+                color: $white-2;
+                border-radius: 3px;
+
+                &:hover {
+
+                    transform: translatey(-7px);
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+    form {
+
+        background: $dark-gradient-2;
+        box-shadow: $shadow-1;
+        border-radius: 10px;
+
+        label {
+
+            text-transform: uppercase;
+            color: $white-3;
+            font-size: 12px;
+
+        }
+
+        input, textarea{
+
+            background-color: #191b1e;
+            border-radius: 6px;
+            height: 55px;
+            border: 2px solid #191b1e;
+            padding: 0 15px;
+            font-size: 14px;
+            color: $white-3;
+            box-shadow: $inner-shadow;
+            letter-spacing: 1px;
+            outline: none;
+
+        }
+
+        textarea {
+
+            resize: none;
+            padding: 10px 15px;
+            height: 170px;
+
+        }
+
+        button {
+
+            color: $pink;
+            background: $dark-gradient-2;
+            box-shadow: $shadow-1;
+            padding: 1rem 0px;
+
+        }
+
+    }
+
+}
