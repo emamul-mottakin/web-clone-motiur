@@ -1,5 +1,5 @@
 <h1 align="center">Portfolio Clone</h1>
-This is a clone project of <a href="https://rainbowit.net/html/inbio/index-technician.html">Md Alamin Bali</a>'s portfolio. I completed this project for my client <a href="https://www.nirviktech.com/">Nirvik Tech</a>.
+This is a clone project of <a href="https://rainbowit.net/html/inbio/index-technician.html" target="_blank">Md Alamin Bali</a>'s portfolio. I completed this project for my client <a href="https://www.nirviktech.com/" target="_blank">Nirvik Tech</a>.
 
 <h1 align="left">Features</h1>
 <li>Responsive design that adapts to different screen sizes</li>
